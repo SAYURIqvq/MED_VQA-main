@@ -62,6 +62,7 @@ MED_VQA-main/
 ├── .gitattributes
 └── .DS_Store
 
+```
 ---
 
 ## 实验方法
@@ -131,7 +132,7 @@ pip install transformers==4.37.2 \
             pillow==10.2.0 \
             matplotlib==3.8.3 \
             numpy==1.26.4
-```
+
 
 ---
 
