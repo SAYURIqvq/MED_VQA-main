@@ -2,6 +2,9 @@
 
 基于 **VQA-RAD 数据集** 的医学视觉问答（Medical Visual Question Answering）项目，系统性实现并对比多种深度学习方法（BERT+CNN、不同微调策略、BLIP），并结合 **Grad-CAM 可解释性分析**，支持可复现实验与多模态 AI 研究。
 
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/c6c3fb46-f5a4-4bcd-a23f-35a24c31e9d7" />
+
+
 ---
 
 ## 项目特点
