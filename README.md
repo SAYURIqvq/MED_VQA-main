@@ -106,11 +106,10 @@ MED_VQA-main/
 
 ---
 
-## 📊 数据集
+## 数据集
 
 * 数据来源：Hugging Face
-  👉 `flaviagiammarino/vqa-rad`
-* 自动下载，无需手动准备
+  `flaviagiammarino/vqa-rad`
 
 ---
 
