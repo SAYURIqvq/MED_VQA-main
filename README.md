@@ -55,10 +55,7 @@ MED_VQA-main/
 ├── compare.py                                       # 模型对比脚本
 ├── baseline_word2idx.json                           # baseline 词表映射
 ├── baseline_answer2idx.json                         # baseline 答案映射
-├── README.md
-├── .gitignore
-├── .gitattributes
-└── .DS_Store
+└── README.md
 
 ```
 ---
