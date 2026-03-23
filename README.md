@@ -108,6 +108,9 @@ MED_VQA-main/
 
 * 数据来源：Hugging Face
   `flaviagiammarino/vqa-rad`
+* 示例图：
+  <img width="1024" height="1291" alt="image" src="https://github.com/user-attachments/assets/5a8d92b8-99ff-4789-8f1d-13859f471494" />
+
 
 ---
 
