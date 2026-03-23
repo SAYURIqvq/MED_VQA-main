@@ -16,20 +16,51 @@
 
 ## 项目结构
 
-```bash
-MED_VQA/
-├── baseline_bert_vqarad.py                  # BERT+CNN 基线模型
-├── baseline_bert_finetune_vqarad.py         # 全量微调 BERT
-├── baseline_bert_partial_finetune_vqarad.py # 部分微调（解冻后几层）
-├── baseline_bert_gradcam_vqarad.py          # Grad-CAM 可解释性分析
-├── compare.py                              # 模型对比（BLIP vs baseline）
-├── blip/
-│   ├── blip_version.py                     # BLIP 标准训练
-│   └── blip_vqarad_longtrain.py            # BLIP 长训练版本
-├── baseline_word2idx.json
-├── baseline_answer2idx.json
-└── README.md
-```
+## 📂 项目结构
+
+```text
+MED_VQA-main/
+├── blip/                                            # BLIP 相关代码、训练产物与示例图像
+│   ├── blip_version.py                              # BLIP 标准训练脚本
+│   ├── blip_vqarad_longtrain.py                     # BLIP 长训练版本脚本
+│   ├── example_test_image_blip.jpg                  # BLIP 示例测试图像
+│   ├── blip_medvqa_vqarad/                          # BLIP 标准训练输出目录
+│   │   ├── config.json
+│   │   ├── generation_config.json
+│   │   ├── preprocessor_config.json
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.txt
+│   └── blip_medvqa_longtrain/                       # BLIP 长训练输出目录
+│
+├── gradcam_baseline_bert/                           # Grad-CAM 可视化结果
+│   ├── gradcam_baseline_idx0.jpg
+│   ├── gradcam_baseline_idx1.jpg
+│   ├── gradcam_baseline_idx2.jpg
+│   ├── gradcam_baseline_idx3.jpg
+│   └── gradcam_baseline_idx4.jpg
+│
+├── vqa_baseline_bert/                               # BERT+CNN 基线输出目录
+│   └── answer2id.json
+│
+├── vqa_baseline_bert_finetune/                      # BERT 全量微调输出目录
+│   └── answer2id.json
+│
+├── vqa_baseline_bert_partial_finetune/              # BERT 部分微调输出目录
+│   └── answer2id.json
+│
+├── baseline_bert_vqarad.py                          # BERT+CNN 基线训练脚本
+├── baseline_bert_finetune_vqarad.py                 # BERT 全量微调训练脚本
+├── baseline_bert_partial_finetune_vqarad.py         # BERT 部分微调训练脚本
+├── baseline_bert_gradcam_vqarad.py                  # Grad-CAM 可解释性分析脚本
+├── compare.py                                       # 模型对比脚本
+├── baseline_word2idx.json                           # baseline 词表映射
+├── baseline_answer2idx.json                         # baseline 答案映射
+├── README.md
+├── .gitignore
+├── .gitattributes
+└── .DS_Store
 
 ---
 
